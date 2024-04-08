@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/dashboard.css">
+    <title>Dashboard</title>
+</head>
+<body>
+  <div
+      id="loginMessage"
+      style="
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        flex-direction: column;
+      "
+    >
+      <h1>Please Login to access the Dashboard!</h1>
+      <button class="btn">
+        <a href="./login.html" style="text-decoration: none; color: white"
+          >Log In</a
+        >
+      </button>
+    </div>
+    <div id="dash">
+  <div class="dashB">
+    <h1>Dashboard</h1>
+  </div>
+  <div class="container">
+    <button id="logoutBtn">Log Out</button>
+  </div>
+    <div class="container">
+        <div class="card">
+          <h2>Home</h2>
+          <button class="but9" id="openPopup" onclick="openPopup()">Edit</button>
+        </div>
+        <div class="card">
+          <h2>Introduction</h2>
+          <button class="but9" id="openPopup" onclick="openPopup()">Edit</button>
+        </div>
+        <div class="card">
+          <h2>Conservation</h2>
+          <button class="but9" id="openPopup" onclick="openPopup()">Edit</button>
+        </div>
+        <div class="card">
+          <h2>Leopard</h2>
+          <button class="but9" id="openPopup" onclick="openPopup()">Edit</button>
+        </div>
+        <div class="card">
+          <h2>Animals</h2>
+          <button class="but9" id="openPopup" onclick="openPopup()">Edit</button>
+        </div>
+        <div class="card">
+          <h2>Yala</h2>
+          <button class="but9" id="openPopup" onclick="openPopup()">Edit</button>
+        </div>
+        <div class="card">
+          <h2>Wilpattu</h2>
+          <button class="but9" id="openPopup" onclick="openPopup()">Edit</button>
+        </div>
+    </div>
+    <section id="subscriptions">
+      <div class="subscriptionsEmails">
+        <h1 class="emialTitle">Subscription Emails</h1>
+        <ol id="emialLists"></ol>
+      </div>
+    </section>
+  </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>

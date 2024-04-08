@@ -1,0 +1,42 @@
+{
+  "main": {
+    "indanimals": {
+      "title": "Indigenous Animals in SriLanka",
+      "indabout": {
+        "description": "Sri Lanka is home to a rich array of indigenous animals that have adapted to the diverse ecosystems found on the island. These indigenous species include a variety of mammals, birds, reptiles, amphibians, and fish. Some examples include:"
+      },
+      "section2": {
+        "list1": {
+          "items": [
+            "Toque Macaque (Macaca sinica)",
+            "Sri Lankan Sloth Bear (Melursus ursinus inornatus)",
+            "Purple-faced Langur (Semnopithecus vetulus)",
+            "Ceylonese Wood Pigeon (Columba torringtoni)",
+            "Hump-nosed Lizard (Lyriocephalus scutatus)"
+          ]
+        }
+      },
+      "paragraph": {
+        "description": "These indigenous animals contribute to the unique biodiversity of Sri Lanka, and conservation efforts are essential to safeguard their habitats and ensure their long-term survival. Protected areas, national parks, and wildlife reserves play a crucial role in preserving the indigenous fauna of the island."
+      }
+    },
+    "animalsbutton": [
+      {
+        "name": "Yala National Park",
+        "button_class": "yalabut",
+        "link": {
+          "text": "Click Here",
+          "url": "yala.html"
+        }
+      },
+      {
+        "name": "Wilpattu National Park",
+        "button_class": "wilpattubut",
+        "link": {
+          "text": "Click Here",
+          "url": "wilpattu.html"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "main": {
+    "department": {
+      "departmentofconv": {
+        "title": "THE DEPARTMENT OF WILDLIFE CONSERVATION"
+      }
+    },
+    "aboutdepartment": {
+      "aboutdep": {
+        "title": "About Department of Wildlife Conservation",
+        "description": "The first attempt to stop the destruction of wildlife resources of Sri Lanka was made in 1889, by the Conservator of Forests , Colonel Clark, R.A,. He brought the disastrous effects of the commercial exploitation of wildlife resources in the country, to the notice of the Government of Ceylon and advocated immediate legislation which would forbid the destroying wild animals, for the export of hides. His successor in office, Mr. A.F. Broun continued the agitation and persuaded the Government to pass two Ordinances, titled “An Ordinance to prevent the wanton destruction of elephants, buffaloes and other game” and “An Ordinance to readjust the customs duties leviable on firearms and to impose an export duty on certain hides and horns”. In the subsequent years, after a concentrated effort, protectionists of the country managed to see a proclamation which prohibited the export of deer hides for trade. Further, it was decided to employ paid watchers within selected and well defined localities, to put a stop to the illegal practice of killing wild animals. Around the turn of the century, on the advice of the Conservator of Forests, two vast stretches of uninhabited country for experimental purposes, Yala an area of 160 sq. miles between Menik Ganga and Kumbukkan Oya and Wilpattu –  an area of 256 sq. miles in the North-Western and North Central provinces, were proclaimed as Reserves under the Forest Ordinance. Since 1993, a special project was launched under the title of “Development of Wildlife Conservation and Protected Area Management”, within the Department. Under this project, funded by UNDP/FAO through Global Environmental Facility (GEF), long term management plans were prepared for all leading wildlife protected areas and a intensive human resource development programme was implemented. Increase of the departmental cadre, research on wildlife, production of public educational materials, formulation of a wild elephant conservation strategy, were the other outcomes of this project, which concluded by the end of 1999."
+      },
+      "departmentmap": {
+        "src":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.945702755659!2d79.9172307756813!3d6.897098018707706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae250aa85489b1f%3A0xd8773339b6b43dbb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1704820527641!5m2!1sen!2slk",
+        "width": "600",
+        "height":"450",
+        "loading": "lazy"
+      }
+    },
+    "gallery": {
+      "title": "Gallery",
+      "images": [
+        {
+          "src": "assets/img/UDAWALAWE SAFARI SRI LANKA.jpg",
+          "alt": "hatch1",
+          "width": "px",
+          "height": "500px"
+        },
+        {
+          "src": "assets/img/Randonnée à Horton Plains _ un parc national unique au Sri Lanka !.jpg",
+          "alt": "hatch2",
+          "width": "",
+          "height": "500px"
+        },
+        {
+          "src": "assets/img/Yala National Park Sri Lanka - A Complete Guide.jpg",
+          "alt": "hatch3",
+          "width": "",
+          "height": "500px"
+        }
+      ]
+    }
+  }
+}

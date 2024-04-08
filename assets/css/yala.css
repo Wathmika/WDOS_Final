@@ -1,0 +1,160 @@
+body{
+
+  height: 100vh;
+  width: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.218)),url(../img/bd1f78b9fbabcd9ca9439451f709b2a3.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+
+
+  }
+.yalamainhead{
+  color: black;
+  text-align: center;
+  font-weight: 200px;
+  font-size: 40px;
+  background-color: rgb(61, 41, 4);
+}
+.yalamain1 h1{
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+}
+.yalamain1{
+  display: block;
+  margin-top: 4vh;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  color: #f2f2f2;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.yalamain1 img{
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  transition: all 1s ease;
+}
+.yalamain1 img:hover{
+  transform: scale(1.1);
+}
+.aboutyalamain h1{
+  font-size: 30px;
+  color: #fff;
+  font-weight: 250px;
+  text-align: center;
+}
+.aboutyalamain{
+  margin-top: 4vh;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: justify;
+  color: #f2f2f2;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.yalamap1 iframe{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  width: 100%;
+  border-radius: 15px;
+  display: inline-block;
+}
+.yalaanimals h1{
+  font-size: 30px;
+  color: #fff;
+  font-weight: 250px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.yalaanimals{
+  margin: 50px;
+  text-align: center;
+  color: #f2f2f2;
+  font-size: 20px;
+  margin-top: 20px;
+
+}
+.yalaanimals img{
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  transition: all 2s ease;
+}
+
+.yalaanimals img:hover{
+  transform: scale(1.1);
+}
+
+.yalasafari h1{
+  color: #f2f2f2;
+  font-size: 30px;
+  text-align: left;
+
+}
+.yalasafaribody{
+  text-align: left;
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+}
+.yalasafari img{
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:425px){
+
+  .yalamain1 img{
+     max-width: 300px;
+     max-height: 300px;
+
+  }
+  .yalaanimals img{
+    max-width: 300px;
+    max-height: 300px;
+  }
+  .yalasafari img{
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
+  

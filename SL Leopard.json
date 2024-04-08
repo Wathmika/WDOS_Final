@@ -1,0 +1,99 @@
+{
+  "main": {
+    "leopardh1": {
+      "h1": "The Sri Lankan Leopard",
+      "leopard": {
+        "img": {
+          "src": "assets/img/Sri Lankan Leopard.jpg",
+          "alt": "leopard",
+          "width": "",
+          "height": "600px"
+        }
+      }
+    },
+    "leopardlocations": {
+      "h2": "Where to spot leopards in sri lanka",
+      "h3": [
+        {
+          "title": "Yala National Park:",
+          "list2": {
+            "ul": [
+              "Location: Yala National Park is situated in the southeastern part of Sri Lanka and is the second-largest national park in the country.",
+              "Habitat: The park is known for its diverse ecosystems, including scrublands, forests, grasslands, and coastal areas. This variety of habitats provides an ideal environment for leopards.",
+              "Leopard Sightings: Yala is renowned for its high concentration of leopards, and visitors have a good chance of spotting these elusive big cats, especially around areas like Block 1 and Block 5."
+            ]
+          }
+        },
+        {
+          "title": "Wilpattu National Park",
+          "list2": {
+            "ul": [
+              "Location: Wilpattu National Park is located in the northwest of Sri Lanka, and it is the largest national park in the country.",
+              "Habitat: The park is characterized by a mix of natural lakes, scrublands, and dense forests. The diverse landscape provides suitable conditions for leopards to thrive.",
+              "Leopard Sightings: Wilpattu is known for its leopard population, and while sightings can be a bit more challenging due to the park's vast and dense nature, the experience of spotting a leopard in this pristine environment is rewarding."
+            ]
+          }
+        },
+        {
+          "title": "Udawalawa National Park",
+          "list2": {
+            "ul": [
+              "Location: Udawalawe National Park is situated in the southern part of Sri Lanka.",
+              "Habitat: The park is predominantly known for its large population of Asian elephants, but it also provides a habitat for leopards in its grasslands and scrublands.",
+              "Leopard Sightings: While Udawalawe is not as famous for leopard sightings as Yala or Wilpattu, visitors still have the opportunity to encounter leopards, making it a diverse wildlife destination."
+            ]
+          }
+        }
+      ]
+    },
+    "section2": {
+      "list2": {
+        "h2": "Key Threats to Leopards",
+        "threat1": [
+          {
+            "h3": "Habitat Loss and Fragmentation",
+            "p": [
+              "Threat: Rapid human population growth and expanding agricultural activities contribute to the loss and fragmentation of leopard habitats.",
+              "Consequences: Reduced availability of suitable habitat leads to increased human-wildlife conflict, as leopards may venture into human settlements in search of food.",
+              "Mechanisms: Conservation organizations work on habitat preservation, creating wildlife corridors, and promoting sustainable land-use practices to minimize habitat loss."
+            ]
+          },
+          {
+            "h3": "Poaching and Illegal Wildlife Trade",
+            "p": [
+              "Threat: Leopards are targeted for their skins, bones, and other body parts, driven by demand in illegal wildlife trade markets.",
+              "Consequences: Poaching poses a direct threat to leopard populations, leading to a decline in their numbers and disrupting the natural balance of ecosystems.",
+              "Mechanisms: Enhanced anti-poaching efforts, stricter law enforcement, and international collaboration to combat the illegal wildlife trade are crucial for protecting leopards."
+            ]
+          }
+        ],
+        "lepthreat1": {
+          "img": {
+            "src": "assets/img/lazy leopard - Scott Nyams.jpg",
+            "alt": "lazy",
+            "width": "",
+            "height": "600px"
+          }
+        },
+        "lepthreat2": {
+          "img": {
+            "src": "assets/img/poaching.jpg",
+            "alt": "poaching",
+            "width": "",
+            "height": "400px"
+          }
+        }
+      }
+    },
+    "leopocon": {
+      "text": "LEOPOCON-SRI LANKA",
+      "button": {
+        "class": "leopoconbut",
+        "a": {
+          "href": "https://www.leopocon.org/",
+          "text": "Click Here"
+        }
+      }
+    }
+  }
+}

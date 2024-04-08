@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRI LANKAN WILDLIFE</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/elephant-logo-free-vector.jpg">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+<header>
+	<div class="barr">
+    <nav class="navbar">
+      <div class=" logo">
+        <a>SRI LANKAN WILDLIFE</a>
+      </div>
+        <div><ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="SL Wild Life Intro.html">Introduction</a></li>
+            <li><a href="Dep of Wild Life Conv.html">Conservation</a></li>
+            <li><a href="SL Leopard.html">leopard</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><div class="dropdown">
+                <button class="dropbtn">
+                    <li><a href="Animals of SL.html">Animals</a></li>
+                </button>
+                <div class="dropdown-content">
+                  <a href="yala.html">Yala</a>
+                  <a href="wilpattu.html">Wilpattu</a>
+                </div>
+                </div>
+            </li>
+        </div></ul>
+    </nav>
+	</div>
+		
+		<div class="hamburger-menu">
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>
+
+    <ul class="menu__box">
+      <li><a class="menu__item" href="index.html">Home</a></li>
+      <li><a class="menu__item" href="SL Wild Life Intro.html">Introduction</a></li>
+      <li><a class="menu__item" href="Dep of Wild Life Conv.html">Conservation</a></li>
+      <li><a class="menu__item" href="SL Leopard.html">leopard</a></li>
+      <li><a class="menu__item" href="Animals of SL.html">Animals</a></li>
+      <li><a class="menu__item" href="yala.html">Yala</a></li>
+      <li><a class="menu__item" href="wilpattu.html">Wilpattu</a></li>
+      <li><a class="menu__item" href="login.html">Login</a></li>
+    </ul>
+  </div>
+</header>
+  <main>
+    <section1>
+      <div class="intro">
+        <h1 id="hero-title"> </h1>
+        <p id="descrip"> </p>
+      </div>
+    </section1>
+    <section2>
+      <div class="list1">
+        <h2 id="list-title"></h2>
+        <ol id="parks">
+        </ol>
+      </div>
+      <div class="container">
+        <div class="box">
+          <div class="homeimg" id="B1"></div>
+          <div class="homeimg" id="B2"></div>    
+        </div>
+      </div>
+      <div class="list1">
+        <p id="descrip1"></p>
+      </div>
+    </section2>
+    <section2>
+      <div class="list1">
+        <h2 id="animalsListHead"></h2>
+        <ul id="iconic-animals"></ul>
+      </div>
+      <div class="container">
+        <div class="box">
+          <div class="Boxx1" id="88"></div>
+          <div class="Boxx1" id="89"></div>
+          <div class="Boxx1" id="90"></div>
+        </div>
+      </div>
+      <div class="list1">
+        <p id="descrip2"></p>
+      </div>
+    </section2>
+
+  </main>
+  <footer>
+    <p>Subscribe to our newsletter for updates:</p>
+    <form class="newsletter-form" id="newsletterForm">
+      <input
+        class="newsletter-input"
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Your email address"
+        required
+      />
+      <button class="newsletter-button" type="submit">Subscribe</button>
+    </form>
+  </footer>
+  
+
+  <section class="footer">
+    <div class="social">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-snapchat"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+    </div>
+    <ul class="list">
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="SL Wild Life Intro.html">Introduction</a>
+      </li>
+      <li>
+        <a href="Dep of Wild Life Conv.html">Department of wildlife Conservation</a>
+      </li>
+      <li>
+        <a href="SL Leopard.html">SL Leopard</a>
+      </li>
+      <li>
+        <a href="Animals of SL.html">Animals</a>
+      </li>
+      <li>
+        <a href="login.html">Login</a>
+      </li>
+      <p class="copyright">
+        Future Coders @ 2023
+      </p>
+    </ul>
+  </section>
+  <script src="./index.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const newsletterForm = document.getElementById("newsletterForm");
+
+      newsletterForm.addEventListener("submit", function (event) {
+        event.preventDefault(); 
+
+        const email = document.getElementById("email").value;
+
+       
+        saveEmailToLocalStorage(email);
+
+        
+        document.getElementById("email").value = "";
+
+        alert("Thank you for subscribing to our newsletter!");
+      });
+      function saveEmailToLocalStorage(email) {
+        let subscriptions =
+          JSON.parse(localStorage.getItem("subscriptions")) || [];
+        subscriptions.push(email);
+        localStorage.setItem(
+          "subscriptions",
+          JSON.stringify(subscriptions)
+        );
+      }
+    });
+  </script>
+</body>
+</html>

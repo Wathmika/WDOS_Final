@@ -1,0 +1,88 @@
+{
+  "main": {
+    "section1": {
+      "intro": {
+        "title": "Sri Lankan Wild Life",
+        "description": "Sri Lanka is a biodiversity hotspot, home to a stunning array of wildlife that will leave you breathless. From the gentle giants of the Asian elephant to the elusive Sri Lankan leopard, the island nation offers a unique opportunity to witness some of the world's most fascinating creatures. Explore lush rainforests teeming with exotic birds, reptiles, and mammals. Take a boat safari on a tranquil lake and spot crocodiles basking in the sun or beobachten pods of playful dolphins frolicking in the waves. Hike through verdant hills and encounter majestic herds of wild elephants grazing in the grasslands. Sri Lanka's commitment to conservation ensures that you can enjoy these wildlife encounters responsibly. Many national parks and protected areas offer guided safaris and tours led by experienced naturalists who will educate you about the animals and their habitat. You can also support local conservation efforts by volunteering with wildlife organizations or choosing eco-friendly travel options.",
+        "container": {
+          "box": {}
+        }
+      }
+    },
+    "section2": [
+      {
+        "list1": {
+          "title": "Places to go",
+          "items": [
+            "Yala National Park",
+            "Sinharaja Forest Reserve",
+            "Udawalawa National Park",
+            "Horton Plains",
+            "Wilpattu National Park",
+            "Minneriya National Park"
+          ]
+        },
+        "container": {
+          "box": {
+            "images": [
+              {
+                "src": "assets/img/The complete guide to visiting Yala National Park in Sri Lanka, including safari tips, ethical information, where to stay, leopard spottings and more!.jpg",
+                "alt": "hatch1",
+                "width": "",
+                "height": "500"
+              },
+              {
+                "src": "assets/img/download.jpg",
+                "alt": "hatch1",
+                "width": "",
+                "height": "500"
+              }
+            ]
+          }
+        },
+        "paragraph": {
+          "description": "Sri Lanka is known for its rich biodiversity and diverse ecosystems, making it a great destination for wildlife enthusiasts. Here are some notable wildlife places to visit in Sri Lanka"
+        }
+      },
+      {
+        "list1": {
+          "title": "Iconic Animals In Sri Lanka",
+          "items": [
+            "Leopard",
+            "Sri Lankan elephant",
+            "Purple Monkey",
+            "Sri Lankan junglefowl",
+            "Peacocks"
+          ]
+        },
+        "container": {
+          "box": {
+            "images": [
+              {
+                "src": "assets/img/Holiday with Wild Elephants in Sri Lanka.jpg",
+                "alt": "hatch1",
+                "width": "",
+                "height": "450"
+              },
+              {
+                "src": "assets/img/52 Places to Go in 2015 (Published 2015).jpg",
+                "alt": "hatch1",
+                "width": "",
+                "height": "450"
+              },
+              {
+                "src": "assets/img/Sri Lanka_ A Dream Honeymoon Destination.jpg",
+                "alt": "hatch1",
+                "width": "",
+                "height": "450"
+              }
+            ]
+          }
+        },
+        "paragraph": {
+          "description": "Sri Lanka is home to a diverse range of wildlife, and several iconic animals contribute to the country's rich biodiversity. Here are some of the iconic animals found in Sri Lanka"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "main": {
+    "yalamain": {
+      "yalamainhead": {
+        "h1": "Yala National Park"
+      }
+    },
+    "yalamain1": {
+      "h1": "History of Yala National Park",
+      "p": [
+        "In 1560 Spanish cartographer Cipriano Sanchez noted Yala in his map \"is abandoned for 300 years due to insalubrious conditions.\" Chief Justice Sir Alexander Johnston wrote a detailed account on Yala in 1806 after travelling from Trincomalee to Hambantota. On March 23, 1900 the government proclaimed Yala and Wilpattu reserves under the Forest Ordinance Initially the extent of the reserve was 389 square kilometres (150 sq mi) between the Menik and Kumbukkan Rivers. At that time the reserve did not bear the name Yala. The Game Protection Society (now the Wildlife and Nature Protection Society) was instrumental in establishing the reserve. The forest area between Palatupana and Yala was declared a hunting site reserved only for the resident sportsmen. Henry Engelbrecht was appointed as the first park warden.",
+        "On 1 March 1938, Yala became a national park when the Flora and Fauna Protection Ordinance was passed into law by D. S. Senanayake, the minister of agriculture. The park consists of five blocks. Subsequently four other blocks were incorporated to the park. There are six national parks and three wildlife sanctuaries in the vicinity of Yala. Kumana National Park, Yala Strict Nature Reserve and Kataragama, Katagamuwa, and Nimalawa sanctuaries are continuous with the park."
+      ],
+      "img": {
+        "src": "assets/img/yala back.jpg",
+        "alt": "yala",
+        "height": "500px"
+      }
+    },
+    "yalamainabout": {
+      "aboutyalamain": {
+        "h1": "About Yala National Park",
+        "p": "Yala National Park (otherwise known as Ruhuna National Park) is one of Sri Lanka’s must-sees. Located to the south east of the island, this exceptional game reserve is Sri Lanka’s most popular for very good reason. Thought to be home to the greatest density of leopards per square kilometre in the world, Yala covers an area of 1,260 square kilometres and is divided into five blocks. Block I is the most visited portion of the reserve and the most rewarding destination for a leopard safari. Leopards are usually elusive, though in Yala, sightings of them are extremely good – you might see them basking in the sun atop rocky outcrops, in trees, crossing tracks and beside waterholes. Alongside leopards, there are also sloth bears, Asian elephants, deer, monkeys, buffalo and many species of birds. If you’re really set on seeing leopards, Yala will offer you Sri Lanka’s best opportunity.",
+        "yalamap1": {
+          "iframe": {
+            "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126871.0962417278!2d81.38901915405327!3d6.429779856077943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae5d3a62ffb9359%3A0x3bb623d70b5a3314!2sYala%20National%20Park!5e0!3m2!1sen!2slk!4v1705064083943!5m2!1sen!2slk",
+            "width": "600",
+            "height": "450",
+            "style": "border:0;",
+            "allowfullscreen": "",
+            "loading": "lazy",
+            "referrerpolicy": "no-referrer-when-downgrade"
+          }
+        }
+      }
+    },
+    "yalaanimals": {
+      "h1": "The Kind of Animals in Yala National Park",
+      "h2": [
+        {
+          "Title":"Sri Lankan Elephant",
+          "description": "Yala is home to a significant population of Sri Lankan elephants, and visitors often have the opportunity to observe these majestic creatures in their natural habitat"
+        },
+        {
+          "Title":"Crocodiles",
+          "description":"Yala National Park is home to both mugger crocodiles and saltwater crocodiles. They can be found in water bodies such as lagoons and tanks."
+        }
+      ],
+      "img": [
+        {
+          "src": "assets/img/Elephants Photos Hd, Asiatic Elephant Photos, African Elephant Photos, Elephants Photos Photography.jpg",
+          "width": "",
+          "height": "500",
+          "alt": "elephant"
+        },
+        {
+          "src": "assets/img/Nile Crocodile by shadowdion on DeviantArt.jpg",
+          "width": "",
+          "height": "500",
+          "alt": "croc"
+        }
+      ]
+    },
+    "yalasafari": {
+      "h1": "Yala National Park Safari Tour",
+      "yalasafaribody": {
+        "p": [
+          "Most of the hotels at Yala offer either a private or group tour. It's an average of 65 USD per person for a guided tour through the park. The price is higher than other national parks in Sri Lanka, but it's totally worth it if you're lucky enough to spot a leopard.",
+          "Jeeps are allowed to enter Yala National Park two times a day; at 6 AM in the morning and 2 PM in the afternoon. According to the rangers, there is no perfect timeframe to choose from. A Yala tour takes about 4 hours."
+        ],
+        "img": {
+          "src": "assets/img/17 Best Things To Do In Sri Lanka.jpg",
+          "width": "",
+          "height": "600px",
+          "alt": "safari"
+        }
+      }
+    }
+  }
+}

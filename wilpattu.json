@@ -1,0 +1,64 @@
+{
+  "main": {
+    "wilpattumain": {
+      "wilpattumainhead": {
+        "h1": "Wilpattu National Park"
+      }
+    },
+    "wilpattumainabout": {
+      "aboutwilpattumain": {
+        "h1": "About Wilpattu National Park",
+        "p": "Wilpattu sanctuary was decalred as a National Park in 1938, Wilpattu National Park is located on the west coast close to the historical city of Anuradhapura .The dry zone jungle is thickly grown. Wilpattu Natonal Park is home for many villus, or natural lakes which dot the landscape in the Wilpattu National Park. Except for two, These lakes contain rainwater, thus are important for resident and migratory water-birds."
+      },
+      "wilpattumap": {
+        "iframe": {
+          "src": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d252571.0709814398!2d80.0518306!3d8.4581819!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afdac7787e4bc27%3A0xcdd9a0715dad187c!2sWilpattu%20National%20Park!5e0!3m2!1sen!2slk!4v1705256873966!5m2!1sen!2slk",
+          "width": "600",
+          "height": "450",
+          "style": "border:0;",
+          "allowfullscreen": "",
+          "loading": "lazy",
+          "referrerpolicy": "no-referrer-when-downgrade"
+        }
+      }
+    },
+    "wilpattuwild": {
+      "wilpattuwildlife": {
+        "h1": "Wildlife in the Wilpattu National Park",
+        "p": "There are approximately 30 species of mammals in the Wilpattu National Park which include the Sri Lankan Elephant, Sri Lankan Leopard, Lankan Sloth Bear, Sri, Spotted Deer, Buffalo, Sambar and Mongoose"
+      },
+      "wilpatturow": {
+        "wilpattucolumn": [
+          {
+            "img": {
+              "src": "assets/img/wilpattu1.jpg",
+              "alt": "wilpattu",
+              "height": "400px"
+            }
+          },
+          {
+            "img": {
+              "src": "assets/img/Monkey , spotted deer at yala srilanka.jpg",
+              "alt": "monkey",
+              "height": "400px"
+            }
+          }
+        ]
+      }
+    },
+    "time": {
+      "timehead": {
+        "h1": "Best Time to Visit Wilpattu"
+      },
+      "p": "The best time to visit Wilpattu National Park is from February to June during the dry season. With less water in the ponds, it's easier to spot animals coming out to drink. The peak season for leopards is February and March.",
+      "timeimg": {
+        "img": {
+          "src": "assets/img/time.png",
+          "alt": "time",
+          "height": "345px"
+        }
+      },
+      "content": "Luckily, you can visit the park year-round, and prices will be much better outside of the high season. In September, the park is closed for maintenance."
+    }
+  }
+}
